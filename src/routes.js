@@ -1,5 +1,6 @@
 import { createStackNavigator } from 'react-navigation';
-import Main from './pages/main';
+import Main from './pages/main/main';
+import Item from './pages/item/item';
 
 const headerConfig = {
     navigationOptions: {
@@ -11,5 +12,6 @@ const headerConfig = {
 };
 
 export default createStackNavigator({
-    Main
+    Main,
+    Item
 }, headerConfig);
