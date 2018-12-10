@@ -1,6 +1,6 @@
 import { createStackNavigator } from 'react-navigation';
-import Main from './pages/main/main';
-import Item from './pages/item/item';
+import Main from './pages/Main';
+import Item from './pages/Item';
 
 const headerConfig = {
     navigationOptions: {

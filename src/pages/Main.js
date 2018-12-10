@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, FlatList, TouchableOpacity, StyleSheet } from 'react-native';
-import api from '../../services/api';
-import Status from '../../components/StatusBar';
+import api from '../services/api';
+import Status from '../components/StatusBar';
 
 export default class Main extends Component {
 
